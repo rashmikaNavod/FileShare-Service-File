@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: file-service
+
+  config:
+    import: "optional:configserver:"
+
+  cloud:
+    config:
+      uri: http://localhost:9000
